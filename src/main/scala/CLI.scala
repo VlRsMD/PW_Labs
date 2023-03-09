@@ -136,7 +136,7 @@ class CLI extends Actor {
     case List("go2web", "-h") => {
       println("go2web -u <URL>                  print the response from the specified URL")
       println("go2web -s <search-term>          search the specified term and print top 10 results")
-      println("go2web -h                         show  this help")
+      println("go2web -h                        show  this help")
       val cli_actor = ActorSystem().actorOf(Props(new CLI))
       var c: String = scala.io.StdIn.readLine()
       var c_s = c.split(" ");
