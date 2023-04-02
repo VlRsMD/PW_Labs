@@ -1,1 +1,1 @@
-# Web Programming course, Laboratory work Nr. 2
+# Web Programming course, Laboratory works
