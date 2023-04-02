@@ -1,0 +1,957 @@
+.b {
+    position: absolute;
+    width: 1907px;
+    height: 9500px;
+    top: 0px;
+    left: -3px
+}
+.corner_background {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%
+}
+.mobile_desktop {
+    position: absolute;
+    top: 250px;
+    left: 1150px
+}
+.search {
+    position: absolute;
+    top: 100px;
+    left: 1600px
+}
+.cart {
+    position: absolute;
+    top: 100px;
+    left: 1650px
+}
+.text1 {
+    position: absolute;
+    top: 300px;
+    left: 1650px
+}
+.label_p {
+    position: absolute;
+    top: 75px;
+    left: 220px
+}
+.header {
+    position: absolute;
+    top: 100px;
+    left: 300px
+}
+.arrow {
+    position: absolute;
+    top: 770px;
+    left: 560px
+}
+.decoration1 {
+    position: absolute;
+    top: 650px;
+    left: 1750px;
+    width: 142px;
+    overflow: hidden
+}
+.g_o_g {
+    position: absolute;
+    top: 300px;
+    left: 300px
+}
+.description {
+    position: absolute;
+    top: 530px;
+    left: 340px
+}
+.el_2 {
+    position: absolute;
+    top: 610px;
+    left: 420px
+}
+.el_3 {
+    position: absolute;
+    top: 610px;
+    left: 590px
+}
+.shop_now {
+    position: absolute;
+    top: 622px;
+    left: 450px
+}
+.learn_more {
+    position: absolute;
+    top: 622px;
+    left: 610px
+}
+.decoration2 {
+    position: absolute;
+    top: 200px;
+    left: -20px;
+}
+
+.fruit1 {
+    position: absolute;
+    top: -20px;
+    left: 900px;
+}
+.fruit2 {
+    position: absolute;
+    top: 600px;
+    left: -30px;
+}
+.fruit3 {
+    position: absolute;
+    top: 770px;
+    left: 800px;
+}
+.page2 {
+    position: absolute;
+    top: 930px;
+    left: -3px;
+    width: 100%
+}
+.page2_dec1 {
+    position: absolute;
+    top: 1050px;
+    left: -20px
+}
+.page2_dec2 {
+    position: absolute;
+    top: 1450px;
+    left: 1740px;
+    width: 150px;
+    overflow: hidden
+}
+.fruit1_p2 {
+    position: absolute;
+    top: 1400px;
+    left: 50px;
+}
+.fruit2_p2 {
+    position: absolute;
+    top: 1050px;
+    left: 1650px;
+}
+.our_promise {
+    position: absolute;
+    top: 1100px;
+    left: 900px
+}
+
+.locally {
+    position: absolute;
+    top: 1150px;
+    left: 600px
+}
+.description2 {
+    position: absolute;
+    top: 1400px;
+    left: 750px
+}
+.el_4 {
+    position: absolute;
+    top: 1500px;
+    left: 900px
+}
+.learn_more_2 {
+    position: absolute;
+    top: 1512px;
+    left: 920px
+}
+.whats_new {
+    position: absolute;
+    top: 1900px;
+    left: 600px
+}
+.dec3 {
+    position: absolute;
+    top: 1900px;
+    left: 1750px;
+    width: 150px;
+    overflow: hidden
+}
+.dec4 {
+    position: absolute;
+    top: 2150px;
+    left: -20px
+}
+.frame1 {
+    position: absolute;
+    top: 2150px;
+    left: 450px
+}
+.frame2 {
+    position: absolute;
+    top: 2150px;
+    left: 1050px
+}
+.frame3 {
+    position: absolute;
+    top: 2700px;
+    left: 450px
+}
+.frame4 {
+    position: absolute;
+    top: 2700px;
+    left: 1050px
+}
+.frame5 {
+    position: absolute;
+    top: 3250px;
+    left: 450px
+}
+.frame6 {
+    position: absolute;
+    top: 3250px;
+    left: 1050px
+}
+.dec5 {
+    position: absolute;
+    top: 3400px;
+    left: 1750px;
+    width: 150px;
+    overflow: hidden
+}
+.dec6 {
+    position: absolute;
+    top: 3100px;
+    left: -20px
+}
+.frame_s1 {
+    position: absolute;
+    top: 2550px;
+    left: 680px
+}
+.frame_s2 {
+    position: absolute;
+    top: 2550px;
+    left: 1280px
+}
+.frame_s3 {
+    position: absolute;
+    top: 3100px;
+    left: 680px
+}
+.frame_s4 {
+    position: absolute;
+    top: 3100px;
+    left: 1280px
+}
+.frame_s5 {
+    position: absolute;
+    top: 3650px;
+    left: 680px
+}
+.frame_s6 {
+    position: absolute;
+    top: 3650px;
+    left: 1280px
+}
+.product1 {
+    position: absolute;
+    top: 2550px;
+    left: 450px
+}
+.product2 {
+    position: absolute;
+    top: 3100px;
+    left: 450px
+}
+.product3 {
+    position: absolute;
+    top: 3650px;
+    left: 450px
+}
+.product4 {
+    position: absolute;
+    top: 2550px;
+    left: 1050px
+}
+.product5 {
+    position: absolute;
+    top: 3100px;
+    left: 1050px
+}
+.product6 {
+    position: absolute;
+    top: 3650px;
+    left: 1050px
+}
+.price1 {
+    position: absolute;
+    top: 2580px;
+    left: 450px
+}
+.price2 {
+    position: absolute;
+    top: 3130px;
+    left: 450px
+}
+.price3 {
+    position: absolute;
+    top: 3680px;
+    left: 450px
+}
+.price4 {
+    position: absolute;
+    top: 2580px;
+    left: 1050px
+}
+.price5 {
+    position: absolute;
+    top: 3130px;
+    left: 1050px
+}
+.price6 {
+    position: absolute;
+    top: 3680px;
+    left: 1050px
+}
+.add1 {
+    position: absolute;
+    top: 2560px;
+    left: 695px
+}
+.add2 {
+    position: absolute;
+    top: 3110px;
+    left: 695px
+}
+.add3 {
+    position: absolute;
+    top: 3660px;
+    left: 695px
+}
+.add4 {
+    position: absolute;
+    top: 2560px;
+    left: 1295px
+}
+.add5 {
+    position: absolute;
+    top: 3110px;
+    left: 1295px
+}
+.add6 {
+    position: absolute;
+    top: 3660px;
+    left: 1295px
+}
+.fruit1_p3 {
+    position: absolute;
+    top: 2190px;
+    left: 550px;
+}
+.fruit2_p3 {
+    position: absolute;
+    top: 2210px;
+    left: 1150px;
+}
+.fruit3_p3 {
+    position: absolute;
+    top: 2780px;
+    left: 500px;
+    overflow: hidden
+}
+.fruit4_p3 {
+    position: absolute;
+    top: 2750px;
+    left: 1150px;
+}
+.fruit5_p3 {
+    position: absolute;
+    top: 3290px;
+    left: 550px;
+}
+.fruit6_p3 {
+    position: absolute;
+    top: 3310px;
+    left: 1120px;
+}
+.p4_background {
+    position: absolute;
+    top: 3850px;
+    left: -3px;
+    width: 100%
+}
+.yellow_b {
+    position: absolute;
+    rotate: 180deg;
+    top: 3850px;
+    left: 0px;
+    height: 845px
+}
+.fruit1_p4 {
+    position: absolute;
+    top: 4250px;
+    left: -30px;
+}
+.fruit2_p4 {
+    position: absolute;
+    top: 3900px;
+    left: 170px;
+}
+.desktop_m {
+    position: absolute;
+    top: 4000px;
+    left: 260px
+}
+.fruit3_p4 {
+    position: absolute;
+    top: 4570px;
+    left: 1300px;
+}
+.fruit4_p4 {
+    position: absolute;
+    top: 3950px;
+    left: 1700px;
+    width: 195px;
+    overflow: hidden
+}
+.deliveries {
+    position: absolute;
+    top: 4100px;
+    left: 900px
+}
+.description_p4 {
+    position: absolute;
+    top: 4320px;
+    left: 900px
+}
+.frame_p4 {
+    position: absolute;
+    top: 4400px;
+    left: 900px
+}
+.shop_p4 {
+    position: absolute;
+    top: 4412px;
+    left: 925px
+}
+.dec1_p4 {
+    position: absolute;
+    top: 4560px;
+    left: 700px
+}
+.dec2_p4 {
+    position: absolute;
+    top: 3780px;
+    left: 1450px
+}
+.background_p5 {
+    position: absolute;
+    top: 4690px;
+    left: 0px;
+    width: 100%
+}
+.made_simple {
+    position: absolute;
+    top: 4880px;
+    left: 700px
+}
+.lorem1 {
+    position: absolute;
+    top: 5000px;
+    left: 720px
+}
+.frame1_p5 {
+    position: absolute;
+    top: 5200px;
+    left: 350px
+}
+.frame2_p5 {
+    position: absolute;
+    top: 5200px;
+    left: 800px
+}
+.frame3_p5 {
+    position: absolute;
+    top: 5200px;
+    left: 1270px
+}
+.frame1_s_p5 {
+    position: absolute;
+    top: 5600px;
+    left: 580px
+}
+.frame2_s_p5 {
+    position: absolute;
+    top: 5600px;
+    left: 1030px
+}
+.frame3_s_p5 {
+    position: absolute;
+    top: 5600px;
+    left: 1500px
+}
+.add1_p5 {
+    position: absolute;
+    top: 5612px;
+    left: 595px
+}
+.add2_p5 {
+    position: absolute;
+    top: 5612px;
+    left: 1045px
+}
+.add3_p5 {
+    position: absolute;
+    top: 5612px;
+    left: 1515px
+}
+.product1_p5 {
+    position: absolute;
+    top: 5600px;
+    left: 350px
+}
+.product2_p5 {
+    position: absolute;
+    top: 5600px;
+    left: 800px
+}
+.product3_p5 {
+    position: absolute;
+    top: 5600px;
+    left: 1270px
+}
+.price1_p5 {
+    position: absolute;
+    top: 5630px;
+    left: 350px
+}
+.price2_p5 {
+    position: absolute;
+    top: 5630px;
+    left: 800px
+}
+.price3_p5 {
+    position: absolute;
+    top: 5630px;
+    left: 1270px
+}
+.fruit1_p5 {
+    position: absolute;
+    top: 5240px;
+    left: 430px
+}
+.fruit2_p5 {
+    position: absolute;
+    top: 5230px;
+    left: 910px;
+}
+.fruit3_p5 {
+    position: absolute;
+    top: 5280px;
+    left: 1315px;
+}
+.dec1_p5 {
+    position: absolute;
+    top: 4880px;
+    left: 1730px;
+    width: 170px;
+    overflow: hidden
+}
+.dec2_p5 {
+    position: absolute;
+    top: 5600px;
+    left: -20px
+}
+.arrow-l {
+    position: absolute;
+    top: 5750px;
+    left: 940px
+}
+.arrow-r {
+    position: absolute;
+    top: 5750px;
+    left: 1000px
+}
+.background_p6 {
+    position: absolute;
+    top: 5850px;
+    left: -3px;
+    width: 100%
+}
+.yellow_p6 {
+    position: absolute;
+    top: 5850px;
+    left: 1320px;
+    width: 580px;
+    height: 1340px
+}
+.dec1_p6 {
+    position: absolute;
+    top: 6500px;
+    left: -70px
+}
+.dec2_p6 {
+    position: absolute;
+    top: 6000px;
+    left: 1100px
+}
+.dec3_p6 {
+    position: absolute;
+    top: 6900px;
+    left: 1100px
+}
+.desktop_p6 {
+    position: absolute;
+    top: 6150px;
+    left: 1150px
+}
+.fruit1_p6 {
+    position: absolute;
+    top: 6000px;
+    left: 1750px;
+    width: 145px;
+    overflow: hidden
+}
+.fruit2_p6 {
+    position: absolute;
+    top: 6820px;
+    left: 1400px;
+    overflow: hidden
+}
+.fruit3_p6 {
+    position: absolute;
+    top: 6900px;
+    left: -20px;
+}
+.personalized {
+    position: absolute;
+    top: 6150px;
+    left: 200px
+}
+.descr_p6 {
+    position: absolute;
+    top: 6400px;
+    left: 200px
+}
+.household_type {
+    position: absolute;
+    top: 6550px;
+    left: 200px
+}
+.frame1_p6 {
+    position: absolute;
+    top: 6600px;
+    left: 200px
+}
+.frame2_p6 {
+    position: absolute;
+    top: 6670px;
+    left: 200px
+}
+.frame3_p6 {
+    position: absolute;
+    top: 6600px;
+    left: 380px
+}
+.frame4_p6 {
+    position: absolute;
+    top: 6670px;
+    left: 380px
+}
+.frame5_p6 {
+    position: absolute;
+    top: 6600px;
+    left: 560px
+}
+.frame6_p6 {
+    position: absolute;
+    top: 6670px;
+    left: 560px
+}
+.lifestyle {
+    position: absolute;
+    top: 6800px;
+    left: 200px
+}
+.frame7_p6 {
+    position: absolute;
+    top: 6850px;
+    left: 200px
+}
+.frame8_p6 {
+    position: absolute;
+    top: 6850px;
+    left: 380px
+}
+.frame9_p6 {
+    position: absolute;
+    top: 6850px;
+    left: 560px
+}
+.one_person {
+    position: absolute;
+    top: 6610px;
+    left: 212px
+}
+.one_adult {
+    position: absolute;
+    top: 6610px;
+    left: 400px
+}
+.two_adults {
+    position: absolute;
+    top: 6610px;
+    left: 585px
+}
+.one_child {
+    position: absolute;
+    top: 6680px;
+    left: 228px
+}
+.two_children {
+    position: absolute;
+    top: 6680px;
+    left: 400px
+}
+.customized {
+    position: absolute;
+    top: 6680px;
+    left: 585px
+}
+.vegetarian {
+    position: absolute;
+    top: 6860px;
+    left: 225px
+}
+.gluten_free {
+    position: absolute;
+    top: 6860px;
+    left: 402px
+}
+.pescatarian {
+    position: absolute;
+    top: 6860px;
+    left: 585px
+}
+.fruit1_p7 {
+    position: absolute;
+    top: 7185px;
+    left: 250px
+}
+.fruit2_p7 {
+    position: absolute;
+    top: 7340px;
+    left: 1450px;
+}
+.fruit3_p7 {
+    position: absolute;
+    top: 7340px;
+    left: 1720px;
+    width: 182px;
+    overflow: hidden
+}
+.dec1_p7 {
+    position: absolute;
+    top: 7340px;
+    left: -20px
+}
+.what_they_say {
+    position: absolute;
+    top: 7400px;
+    left: 220px
+}
+.lorem1_p7 {
+    position: absolute;
+    top: 7600px;
+    left: 220px
+}
+.lorem2_p7 {
+    position: absolute;
+    top: 7600px;
+    left: 900px
+}
+.lorem3_p7 {
+    position: absolute;
+    top: 7800px;
+    left: 220px
+}
+.lorem4_p7 {
+    position: absolute;
+    top: 7800px;
+    left: 900px
+}
+.name1_p7 {
+    position: absolute;
+    top: 7700px;
+    left: 220px
+}
+.name2_p7 {
+    position: absolute;
+    top: 7700px;
+    left: 900px
+}
+.name3_p7 {
+    position: absolute;
+    top: 7900px;
+    left: 220px
+}
+.name4_p7 {
+    position: absolute;
+    top: 7900px;
+    left: 900px
+}
+.dec2_p7 {
+    position: absolute;
+    top: 7900px;
+    left: 1730px;
+    width: 170px;
+    overflow: hidden
+}
+.fruit4_p7 {
+    position: absolute;
+    top: 7880px;
+    left: -50px
+}
+.fruit5_p7 {
+    position: absolute;
+    top: 7980px;
+    left: 640px
+}
+.p8_background {
+    position: absolute;
+    top: 8100px;
+    left: -3px;
+    width: 100%
+}
+.yellow_p8 {
+    position: absolute;
+    top: 8770px;
+    left: 0px;
+    width: 1900px
+}
+.credit_card {
+    position: absolute;
+    top: 8300px;
+    left: 1000px
+}
+.dec1_p8 {
+    position: absolute;
+    top: 8500px;
+    left: 1720px;
+    width: 170px;
+    overflow: hidden
+}
+.dec2_p8 {
+    position: absolute;
+    top: 8200px;
+    left: -20px
+}
+.FAQs {
+    position: absolute;
+    top: 8220px;
+    left: 300px
+}
+.question1 {
+    position: absolute;
+    top: 8380px;
+    left: 300px
+}
+.question2 {
+    position: absolute;
+    top: 8450px;
+    left: 300px
+}
+.question3 {
+    position: absolute;
+    top: 8530px;
+    left: 300px
+}
+.question4 {
+    position: absolute;
+    top: 8610px;
+    left: 300px
+}
+.plus1 {
+    position: absolute;
+    top: 8380px;
+    left: 870px
+}
+.plus2 {
+    position: absolute;
+    top: 8450px;
+    left: 870px
+}
+.plus3 {
+    position: absolute;
+    top: 8530px;
+    left: 870px
+}
+.plus4 {
+    position: absolute;
+    top: 8610px;
+    left: 870px
+}
+.line1 {
+    position: absolute;
+    top: 8410px;
+    left: 300px
+}
+.line2 {
+    position: absolute;
+    top: 8480px;
+    left: 300px
+}
+.line3 {
+    position: absolute;
+    top: 8560px;
+    left: 300px
+}
+.line4 {
+    position: absolute;
+    top: 8640px;
+    left: 300px
+}
+.our_company {
+    position: absolute;
+    top: 9100px;
+    left: 200px
+}
+.our_team {
+    position: absolute;
+    top: 9100px;
+    left: 600px
+}
+.sources {
+    position: absolute;
+    top: 9100px;
+    left: 1000px
+}
+.legal {
+    position: absolute;
+    top: 9100px;
+    left: 1400px
+}
+.company_info {
+    position: absolute;
+    top: 9150px;
+    left: 200px;
+    width: 150px
+}
+.team_info {
+    position: absolute;
+    top: 9150px;
+    left: 600px;
+    width: 80px
+}
+.sources_info {
+    position: absolute;
+    top: 9150px;
+    left: 1000px;
+    width: 170px
+}
+.legal_info {
+    position: absolute;
+    top: 9150px;
+    left: 1400px;
+    width: 150px
+}
+.copyright {
+    position: absolute;
+    top: 9350px;
+    left: 200px;
+    width: 400px
+}

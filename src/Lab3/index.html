@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="myDiv" class="listHeader">
+    <h2>My To-do List</h2>
+    <input type="text" id="taskInput" class="inputTask" placeholder="Task title...">
+    <input type="text" id="descriptionInput" class="inputTaskDescription" placeholder="Add task description...">
+    <input type="text" id="timeInput" class="inputTime" placeholder="Add time...">
+    <span onclick="newElement()" class="addButton">Add</span>
+</div>
+<div id class="list1Header">
+    <h2>To Do</h2>
+</div>
+<div class="list2Header">
+    <h2>Done</h2>
+</div>
+<ul id="list1" class="unorderedListToDo">
+    <li>
+        <h3 class="taskTitle">Go to the gym</h3>
+        <h4 class="taskDescription"> Practice cardio exercises </h4>
+        <div class="time"> 7:00 </div>
+    </li>
+    <li>
+        <h3 class="taskTitle">Go to the driving lesson</h3>
+        <h4 class="taskDescription"> Practice driving in the city center </h4>
+        <div class="time"> 8:30 </div>
+    </li>
+    <li>
+        <h3 class="taskTitle">Go to the university</h3>
+        <h4 class="taskDescription"> Attend 2 seminars </h4>
+        <div class="time"> 10:30 </div>
+    </li>
+    <li>
+        <h3 class="taskTitle">Work on the internship project</h3>
+        <h4 class="taskDescription"> Accomplish project tasks </h4>
+        <div class="time"> 14:00 </div>
+    </li>
+    <li>
+        <h3 class="taskTitle"> Read a scientific article</h3>
+        <h4 class="taskDescription"> Read and analyze an article on a scientific topic </h4>
+        <div class="time"> 19:00 </div>
+    </li>
+</ul>
+<ul id="list2" class="unorderedListDone">
+</ul>
+
+<script src="app.js" />
+</body>
+</html>
