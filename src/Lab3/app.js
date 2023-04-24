@@ -79,10 +79,20 @@ function newElement() {
     time.appendChild(timeI);
     li.appendChild(time)
 
+    const image = document.createElement("div");
+    const imageInputSrc = document.getElementById("imageInput").value
+    var img = new Image()
+    img.src = imageInputSrc
+    img.style.length = 300+"px"
+    img.style.width = 300+"px"
+    image.appendChild(img)
+    li.appendChild(image)
+
     document.getElementById("list1").appendChild(li);
     document.getElementById("taskInput").value = "";
     document.getElementById("descriptionInput").value = "";
     document.getElementById("timeInput").value = "";
+    document.getElementById("imageInput").value = "";
 
     const spanClose = document.createElement("SPAN");
     const txtClose = document.createTextNode("\u2716");
