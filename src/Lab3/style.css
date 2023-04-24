@@ -24,8 +24,15 @@
     user-select: none;
 }
 
+
+
 .unorderedListToDo li:nth-child(odd) {
     background: #00ffff;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
 }
 
 .close {
@@ -59,7 +66,7 @@
     padding: 30px 40px;
     color: #ffa500;
     text-align: center;
-    height: 150px;
+    height: 170px;
 }
 
 .listHeader:after {
@@ -107,6 +114,19 @@
     font-size: 16px;
 }
 
+.inputImage {
+    position: absolute;
+    margin: 0;
+    top: 180px;
+    left: 50px;
+    border: none;
+    border-radius: 0;
+    width: 902px;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+
 .addButton {
     position: absolute;
     padding: 10px;
@@ -133,7 +153,6 @@
     margin-top: 30px;
     margin-left: 455px;
     color: red;
-
 }
 
 .list2Header {
