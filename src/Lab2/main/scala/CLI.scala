@@ -1,10 +1,18 @@
+import java.io.BufferedReader
+import java.io.BufferedWriter
+import java.io.IOException
+import java.io.InputStreamReader
+import java.io.OutputStreamWriter
+import java.net.ServerSocket
+import java.net.Socket
+import java.net.UnknownHostException
 import akka.actor.{Actor, ActorSystem, Props}
 import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
 import org.jsoup.select.Elements
-import java.io.{BufferedInputStream, BufferedOutputStream, BufferedReader, IOException, InputStream, InputStreamReader, PrintStream}
+import java.io.{BufferedInputStream, BufferedOutputStream, InputStream, PrintStream}
 import scala.collection.mutable.ListBuffer
-import java.net.{ServerSocket, URL, URLConnection}
+import java.net.{URL, URLConnection}
 import java.nio.charset.StandardCharsets
 import java.util.Scanner
 
@@ -56,25 +64,61 @@ object search_engine {
   }
 }
 
-object requestToUrl {
-  def get(urlString: String): Unit = {
-    val source = scala.io.Source.fromURL(urlString)
-    val content = source.mkString
-    var contentJsoupDoc: Document = Jsoup.parse(content)
-    val contentReadable: Elements = contentJsoupDoc.select("div")
-    val contentReadableArray =  contentReadable.toArray()
-    for (i<-0 until contentReadableArray.length) {
-      var contentDoc: Document = Jsoup.parse(contentReadableArray(i).toString)
-      var contentText: String = contentDoc.text()
-      println(contentText)
-    }
+object request {
+  def startSever(): Unit = {
+    (new Thread() {
+      @Override
+      override def run() {
+        var ss: ServerSocket = new ServerSocket()
+        try {
+          ss = new ServerSocket(7020)
+          var s: Socket = ss.accept();
+          var in: BufferedReader = new BufferedReader(
+            new InputStreamReader(s.getInputStream()));
+          var line: String = null;
+          while ((line = in.readLine()) != null) {
+            System.out.println(line);
+          }
+        } catch {
+          case io: IOException => {
+            io.printStackTrace()
+          }
+        }
+      }
+    }).start();
+  }
+  def startSender(): Unit = {
+    (new Thread() {
+      @Override
+      override def run() {
+        try {
+          var s: Socket = new Socket("localhost", 7020);
+          var out: BufferedWriter = new BufferedWriter(
+            new OutputStreamWriter(s.getOutputStream()));
+          out.write("This is PW lab nr. 2 project.");
+          out.newLine();
+          out.flush();
+        } catch {
+          case u: UnknownHostException => {
+            u.printStackTrace()
+          }
+          case io: IOException => {
+            io.printStackTrace()
+          }
+          case i: InterruptedException => {
+            i.printStackTrace()
+          }
+        }
+      }
+    }).start();
   }
 }
 
 class CLI extends Actor {
   def receive = {
-    case List("go2web", "-u", urlString: String) => {
-      requestToUrl.get(urlString)
+    case List("go2web", "-u", "http://localhost:7020/") => {
+      request.startSever()
+      request.startSender()
       val cliActor = ActorSystem().actorOf(Props(new CLI))
       var command: String = scala.io.StdIn.readLine()
       var commandSplit = command.split(" ");
@@ -144,8 +188,9 @@ class CLI extends Actor {
       if (search_term.contains("history")) {
         for(i<-search_engine.history_search.indices) {
           println(search_engine.history_search(i))
-          requestToUrl.get(search_engine.history_search(i))
         }
+        request.startSever()
+        request.startSender()
         val cliActor = ActorSystem().actorOf(Props(new CLI))
         var command: String = scala.io.StdIn.readLine()
         var commandSplit = command.split(" ");
@@ -158,8 +203,9 @@ class CLI extends Actor {
       } else if (search_term.contains("science")) {
         for(i<-search_engine.history_search.indices) {
           println(search_engine.history_search(i))
-          requestToUrl.get(search_engine.history_search(i))
         }
+        request.startSever()
+        request.startSender()
         val cliActor = ActorSystem().actorOf(Props(new CLI))
         var command: String = scala.io.StdIn.readLine()
         var commandSplit = command.split(" ");
@@ -172,8 +218,9 @@ class CLI extends Actor {
       } else if (search_term.contains("technology")) {
         for(i<-search_engine.history_search.indices) {
           println(search_engine.history_search(i))
-          requestToUrl.get(search_engine.history_search(i))
         }
+        request.startSever()
+        request.startSender()
         val cliActor = ActorSystem().actorOf(Props(new CLI))
         var command: String = scala.io.StdIn.readLine()
         var commandSplit = command.split(" ");
