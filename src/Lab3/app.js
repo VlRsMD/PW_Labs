@@ -83,8 +83,8 @@ function newElement() {
     const imageInputSrc = document.getElementById("imageInput").value
     var img = new Image()
     img.src = imageInputSrc
-    img.style.length = 100+"px"
-    img.style.width = 100+"px"
+    img.style.length = 300+"px"
+    img.style.width = 300+"px"
     image.appendChild(img)
     li.appendChild(image)
 
